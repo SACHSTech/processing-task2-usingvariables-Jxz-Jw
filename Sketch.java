@@ -21,7 +21,7 @@ public class Sketch extends PApplet {
    */
   public void setup() {
     // Set background colour
-    background(14, 52, 97);
+    background(128, 190, 241);
   }
 
   /**
@@ -31,40 +31,28 @@ public class Sketch extends PApplet {
 
     // Draw the moon
     stroke(200);
-    fill(255, 247, 232);
-    ellipse(325, 70, 95, 95);
-
-    // Draw the shooting star + stars
-    stroke(255);
-    line(100, 25, 250, 100); 
-    fill(255, 247, 232);
-    ellipse(235, 45, 1, 1);
-    fill(255, 247, 232);
-    ellipse(367, 160, 3, 3);
-    fill(255, 247, 232);
-    ellipse(240, 173, 2, 2);
-    fill(255, 247, 232);
-    ellipse(60, 30, 3, 3);
-    fill(255, 247, 232);
-    ellipse(30, 130, 2, 2);
-    fill(255, 247, 232);
-    ellipse(135, 220, 4, 4);
-    fill(255, 247, 232);
-    ellipse(110, 93, 1, 1);
+    fill(255, 238, 189);
+    ellipse(95, 70, 95, 95);
 
     // Draw the foreground
     stroke(0, 0, 0);
-    fill(0, 0, 0);
-    rect(-20, 340, 420, 120);
+    fill(90, 133, 65);
+    rect(-20, 330, 420, 120);
 
-    // Draw the building in the distance
-    fill(0, 0, 0);
-    rect(70, 298, 115, 200);
+    //line(150,150,250,250);
+    //line(50,250,150,150);
+    //line(50,250,250,250);
+
+    fill(224, 219, 215);
+    rect(100, 230, 260, 100);
+    //fill(138, 57, 39);
+    //rect(200, 200, 145, 130);
+    //rect(50,250,200,100);
 
     // Draw the main building
-    stroke(96, 88, 112);
-    fill(32, 25, 33);
-    rect(200, 200, 151, 200);
+    //stroke(96, 88, 112);
+    //fill(146, 157, 196);
+    //rect(200, 200, 151, 200);
 
     // Draw the windows ↓↓↓
     stroke(165, 136, 164);
